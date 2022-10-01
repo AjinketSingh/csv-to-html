@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DataSet Manager - SignIn</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <section class="header-content">
+        <h1 class="header-title animate-pop-in">DataSet Manager!</h1>
+
+        <br> <br/>
+        <br> <br/>
+
+    <div class="form">
+
+      <h1 class="header-title animate-pop-in">Log In</h1>
+      <!-- Email  -->
+      <div class="email">
+        <label class="header-title animate-pop-in" for="email">&nbsp;&nbsp;Email</label>
+        <input class="header-title animate-pop-in"
+          type="email"
+          name="email"
+          id="email"
+          placeholder=" Email address"
+        />
+      </div>
+      <!-- passWord -->
+      <div class="pass">
+        <label class="header-title animate-pop-in" for="password">&nbsp;&nbsp;Password</label>
+        <input class="header-title animate-pop-in"
+          type="password"
+          name="password"
+          id="password"
+          placeholder=" Password"
+        />
+      </div>
+
+      <!-- Sign Up button -->
+      <div class="vertical-center">
+          <button class="header-title animate-pop-in" id="submit-btn" onclick="signIn()">Sign In</button>
+      </div>
+      <!-- Sign In option -->
+      <pw class="header-title animate-pop-in"> Don't have an account?</pw>
+      <span class="header-title animate-pop-in"><a href="signUp.html">Create Account</a></span>
+    </div>
+        </section>
+    </header>
+
+    <script src="main.js"></script>
+  </body>
+</html>

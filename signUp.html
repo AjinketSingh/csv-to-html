@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Library Application - Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+  </head>
+  <body>
+    <header>
+      <section class="header-content">
+    <div class="form">
+      <h1>Register</h1>
+      <!-- Email  -->
+      <div class="email">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder=" Email address"
+        />
+      </div>
+      <!-- passWord -->
+      <div class="pass">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder=" Password"
+        />
+      </div>
+
+      <!-- Sign Up button -->
+       
+        <div class="vertical-center">
+          <button id="submit-btn" onclick="signUp()">Sign Up</button>
+        </div>
+      <!-- Sign In option -->
+      <pw>Already have an account?</pw>
+      <span><a href="index.html">&nbsp;Sign In</a></span>
+    </div>
+  </section>
+</header>
+    <script src="main.js"></script>
+  </body>
+</html>
