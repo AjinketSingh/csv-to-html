@@ -69,6 +69,9 @@ input {
     cursor: pointer;
     margin: 9px 0px;
 }
+#submit-btn:hover{
+  background-color: black;
+}
 
 p {
     font-size: 17px;
